@@ -2,8 +2,59 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+:root {
+  --hightlight: blue
+}
+
 body {
   background-color: white;
   color: black;
   font-family: Verdana;
+}
+
+.grid-container>div {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+
+  grid-template-columns: 1fr 255px 1050px 255px 1fr;
+  grid-template-rows: auto 1fr auto;
+
+  grid-template-areas:
+    "l-gutter Top Top Top r-gutter"
+    "l-gutter Left Center Right r-gutter"
+    "l-gutter Bottom Bottom Bottom r-gutter";
+  grid-auto-flow: row;
+  justify-content: stretch;
+  justify-items: stretch;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.header {
+  grid-area: Top;
+  background-color: brown;
+}
+
+.leftSide {
+  grid-area: Left;
+  background-color: aquamarine;
+}
+
+.body {
+  grid-area: Center;
+  background-color: slateblue;
+}
+
+.rightSide {
+  grid-area: Right;
+  background-color: seagreen;
+}
+
+.footer {
+  grid-area: Bottom;
+  background-color: darkmagenta;
 }
