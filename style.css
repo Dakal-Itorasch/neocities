@@ -7,9 +7,12 @@
 }
 
 body {
+  border-color: black;
+  border-width: 2px;
   background-color: white;
   color: black;
   font-family: Verdana;
+  background-image: url(assets/img/windowsXPWallpaper.png);
 }
 
 .grid-container>div {
@@ -57,4 +60,8 @@ body {
 .footer {
   grid-area: Bottom;
   background-color: darkmagenta;
+}
+
+.section-menu{
+  background-color: darkgoldenrod;
 }
