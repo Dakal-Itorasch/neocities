@@ -7,6 +7,7 @@
 }
 
 body {
+  border-radius:10px;
   border-color: black;
   border-width: 2px;
   background-color: white;
@@ -37,6 +38,12 @@ body {
   gap: 8px;
 }
 
+.grid-container > div {
+  border-radius: 10px;
+  border-style: dashed;
+  border-width: 2px;
+}
+
 .header {
   grid-area: Top;
   background-color: brown;
@@ -47,7 +54,7 @@ body {
   background-color: aquamarine;
 }
 
-.body {
+.main {
   grid-area: Center;
   background-color: slateblue;
 }
