@@ -15,7 +15,8 @@ body {
   font-family: Verdana;
   /* background-image: url(assets/img/windowsXPWallpaper.png); */
   background-image: linear-gradient(#eed6ff 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #eed6ff 1.2000000000000002px, #fffff7 1.2000000000000002px);
-  background-size: 24px 24px
+  background-size: 24px 24px;
+  margin: 0px;
 }
 
 .grid-container>div {
@@ -113,7 +114,7 @@ a :hover {
   border-color: aqua;
 }
 
-.window h2 {}
+/* .window h2 {} */
 
 .window-content {
   background: #ffffff;
