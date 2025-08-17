@@ -22,6 +22,14 @@ body {
   /* text-align: center; */
 }
 
+a {
+  color: hotpink;
+}
+
+a :hover {
+  font-weight: bold;
+}
+
 .grid-container {
   display: grid;
   width: 100%;
@@ -55,6 +63,28 @@ body {
 .leftSide {
   grid-area: Left;
   background-color: aquamarine;
+}
+
+.side-section-title {
+  padding-left: 2px;
+}
+
+.panel-section {
+  margin-left:10px
+}
+
+.panel-section h2 {
+  margin: 0px;
+}
+
+.panel-section hr{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.side-panel hr {
+  margin-left: 30px;
+  margin-right: 30px; 
 }
 
 .main {
